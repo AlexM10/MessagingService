@@ -5,4 +5,4 @@ Flask-SQLAlchemy==2.4.4
 Flask-Login
 gunicorn==20.0.4
 SQLAlchemy==1.3.19
-dateutil
+python-dateutil --upgrade

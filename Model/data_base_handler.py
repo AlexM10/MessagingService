@@ -1,0 +1,3 @@
+from Model.message_handler_repository import MessageHandlerRepository
+
+data_access_manager = MessageHandlerRepository()

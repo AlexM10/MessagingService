@@ -1,5 +1,4 @@
 from datetime import datetime
-from dateutil import parser
 
 
 class MessageObj(object):

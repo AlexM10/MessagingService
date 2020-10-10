@@ -1,4 +1,4 @@
-from Model.Models import User
+from Model.models import User
 from Model.database_setup import session
 from Model.user_obj import UserObj
 

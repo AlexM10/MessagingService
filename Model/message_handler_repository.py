@@ -13,7 +13,6 @@ class MessageHandlerRepository(object):
     def read_message(self, user: UserObj):
         ans: MessageObj = self.__message_repo.get_message(user.get_username())
         if ans is not None:
-            print("here")
             self.__message_repo.edit_message_is_read(ans.id)
         return ans
 

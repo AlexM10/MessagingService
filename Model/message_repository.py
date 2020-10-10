@@ -1,6 +1,4 @@
-from datetime import datetime
-
-from Model.Models import Message
+from Model.models import Message
 from Model.database_setup import session
 from Model.message_obj import MessageObj
 from sqlalchemy import or_, and_

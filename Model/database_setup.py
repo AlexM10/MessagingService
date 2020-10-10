@@ -1,12 +1,7 @@
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from Model.Models import Base
+from Model.models import init_db
 
-engine = create_engine('sqlite:///Model/message_handler.db')
-Base.metadata.bind = engine
-Base.metadata.create_all(engine, checkfirst=False)
-DBSession = sessionmaker(bind=engine)
-session = DBSession()
+
+session = init_db()
 
 
 
